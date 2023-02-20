@@ -1,0 +1,68 @@
+# Exercise 1
+print(60*60)
+
+
+# Exercise 2
+second_per_hour = 3600
+
+
+# Exercise 3
+print(second_per_hour)
+
+
+# Exercise 4
+print(3600*24)
+second_per_day = 86400
+
+
+# Exercise 5
+print(second_per_day / second_per_hour)
+
+
+# Exercise 6
+print(second_per_day // second_per_hour)
+
+
+# Exercise 7
+print(6.5 + 5.5)
+print(374 - 362)
+print(3*4)
+print(804/67)
+
+
+# Exercise 9
+my_name = "Dmytro"
+print(my_name.lower())
+print(my_name.upper())
+print(my_name.swapcase())
+
+
+# Exercise 10
+poem = '''Yes, I'll smile, indeed, through tears and weeping
+    Sing my songs where evil holds its sway,
+    Hopeless, a steadfast hope forever keeping,
+    I shall live! You thoughts of grief, away!'''
+
+a = len(poem)
+print(a)
+
+x = poem.startswith('Yes')
+print(x)
+
+y = poem.endswith('I shall live!')
+print(y)
+
+q = poem.count(',')
+print(q)
+
+g = poem.isalnum()
+print(g)
+
+k = poem.find(',')
+print(k)
+
+h = poem[0:15]
+print(h)
+
+v = poem.rfind(',')
+print(v)
