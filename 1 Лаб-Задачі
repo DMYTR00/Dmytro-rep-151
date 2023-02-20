@@ -1,0 +1,91 @@
+# Problem 1
+home = 'table'
+print(home)
+
+home = 'chair'
+print(home)
+
+
+# Problem 2
+name2 = "Dmytro"
+print("Hello," + name2 + ",would you like to learn some Python today?")
+
+
+# Problem 3
+quote = " 'Fasten your seatbelts. It's going to be a bumpy night.' "
+famous_person = "Margo Chening"
+print(famous_person + ', is once said,' + quote)
+
+
+# Problem 4
+name4 = ' \t Dmytro \n '
+print(name4)
+print(name4.lstrip())
+print(name4.rstrip())
+print(name4.strip())
+
+
+# Problem 5
+print("Babynskiy Dmytro")
+print('Ukrain')
+print(58012)
+print('Chernivtsi')
+print("Heroiv Krut Boulevard")
+print("4a")
+
+
+# Problem 6
+meters = float(input("Put number:"))
+print(meters)
+inch = 39.37
+cute = 0.000621371192
+feet = 3.28
+yards = 1.0936133
+
+inch_1 = meters * inch
+cute_1 = meters * cute
+feet_1 = meters * feet
+yards_1 = meters * yards
+
+print(inch_1)
+print(cute_1)
+print(feet_1)
+print(yards_1)
+
+
+# Problem 7
+
+holidays = int(input("Days:"))
+print(holidays)
+hours = holidays * 24
+minutes = hours * 60
+seconds = minutes * 60
+
+form_hours = format(hours, "10")
+form_minutes = format(minutes, "10")
+form_seconds = format(seconds, "10")
+
+print(form_hours)
+print(form_minutes)
+print(form_seconds)
+
+
+# Problem 8
+celsium = int(input("put celsium: "))
+print(celsium)
+C = celsium
+F = 32 + 9/5 * C
+K = C + 273.15
+
+FX = '{:.2f}'.format(F)
+KX = '{:.2f}'.format(K)
+
+Form_FX = str(FX)
+Right_FX = Form_FX.rjust(20)
+Cent_FX = Right_FX.center(0)
+print(Cent_FX)
+
+Form_KX = str(KX)
+Right_KX = Form_KX.rjust(21)
+Cent_KX = Right_KX.center(0)
+print(Cent_KX
